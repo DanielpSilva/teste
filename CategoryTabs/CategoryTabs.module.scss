@@ -1,0 +1,51 @@
+// Variáveis
+$border-color: #ccc;
+$text-color: #333;
+$active-text-color: #000080;
+$font-weight-bold: bold;
+
+.relatedProductsTabs {
+    border: 1px solid $border-color;
+    width: 90%; 
+    margin: auto;
+}
+
+.tabsList {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.tabItem {
+    flex: 1; 
+    text-align: center;
+    padding: 5px 0; 
+    cursor: pointer;
+
+    border-right: 1px solid $border-color;
+    
+    &:last-child {
+        border-right: none;
+    }
+    
+    &:first-child {
+    .tabLink {
+        color: $active-text-color;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 16px;
+        line-height: 16px;
+    }
+  }
+}
+
+.tabLink {
+    display: block;
+    text-decoration: none; 
+    color: $text-color;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 16px;
+}

@@ -1,0 +1,30 @@
+$color-text-blue: #3442B5;
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: $color-text-blue;
+}
+
+.containerBrands{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 2rem 0;
+}
+
+.imgBrands{
+    width: 200;
+    height: 211;
+    opacity: 1;
+    padding: 70px 37px;
+    border-radius: 105.5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+
+    img{
+        width: 100px;
+    }
+}
